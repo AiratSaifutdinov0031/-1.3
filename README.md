@@ -4,3 +4,27 @@
 
 
 ОТВЕТ:
+using System;
+
+namespace Lesson1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Как вас зовут?");
+            string firstName = Console.ReadLine();
+
+            Console.WriteLine("Сколько вам лет?");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Какой ваш знак зодиака?");
+            string zodiacSign = Console.ReadLine();
+
+            Console.WriteLine("Ваша проффесия?");
+            string jobs = Console.ReadLine();
+
+            Console.WriteLine("Вас зовут {0}, ваш возраст {1}, вы {2}, ваша проффесия {3}.", firstName, age, zodiacSign, jobs);
+        }
+    }
+}
