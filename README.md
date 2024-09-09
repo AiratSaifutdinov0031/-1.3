@@ -4,6 +4,9 @@
 
 
 ОТВЕТ:
+
+
+
 using System;
 
 namespace Lesson1
